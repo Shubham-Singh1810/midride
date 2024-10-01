@@ -1,0 +1,201 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* general setting ends */
+
+.mainBody{
+  background-color: #353535;
+  padding: 25px 25px 25px 10px;
+}
+.rightBodyContainerMain{
+  background-color: #fff;
+  border-radius: 35px;
+}
+.selectedBtn{
+  background-color: #139F01;
+  border-radius: 30px;
+  padding: 5px;
+}
+.brandName img{
+  height: 15px;
+  margin-top: -30px;
+}
+.sideBarOption{
+  color: #FBFCFA;
+  padding: 10px 20px;
+}
+.sideBarOption img{
+  height: 20px;
+  width: 20px;
+  margin-right: 16px;
+}
+.langSelect{
+  background-color: #353535;
+  color:#fff;
+  border-radius: 8px;
+  font-weight: "400";
+  padding: 2px 6px;
+}
+.logOut img{
+  height: 30px;
+}
+.userImg img{
+  height: 45px;
+}
+.staticsCard{
+  padding: 8px 15px;
+  border-radius: 12px;
+}
+.bookingGraph{
+  border-radius: 20px;
+
+}
+.bookingGraph select{
+  border: none;
+  border-radius: 8px;
+  font-weight: "400";
+  padding: 2px 6px;
+  font-size: 14px;
+}
+.pieGraphBg{
+  background-color: #353535;
+  border-radius: 20px;
+  color: white;
+  height: 100%;
+}
+.pieGraphBg select{
+  border: none;
+  border-radius: 8px;
+  font-weight: "400";
+  padding: 2px 6px;
+  font-size: 14px;
+}
+.tasksRemainer{
+  background-color:#fff;
+  border-radius: 20px;
+  color: black;
+  height: 100%;
+}
+.btnGroup{
+  background-color: #353535;
+  border-radius: 20px;
+  
+  color:#fff
+}
+.toggleBtn{
+  
+  width: 50%;
+  padding: 2px 0px;
+  border-radius: 20px;
+  text-align: center;
+}
+.activeToggle{
+  background: #139F01;
+}
+.outAreaCard{
+  border-radius: 12px;
+}
+.upperCap{
+  font-size: 12px;
+  padding: 8px 0px;
+  margin: 12px 0px;
+  border-radius:12px 12px 0px 0px;
+}
+
+.lowerCap{
+background-color: #353535;
+color: white;
+font-size: 12px;
+padding: 8px 0px;
+border-radius:0px 0px 12px 12px;
+}
+.outOfAreaText{
+  rotate: -90deg;
+  position: relative;
+  left: -20px;
+  top: 50px;
+  width: 80px;
+  font-weight: 500;
+  font-size: 13px;
+}
+.mainNav{
+  background-color: #353535;
+  padding: 10px;
+  border-radius: 24px;
+}
+.navItem{
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 0px;
+  margin: 5px;
+  border-radius: 25px;
+}
+.activeNav{
+  background-color: #139F01;
+  border-radius: 20px;
+}
+.tableHeaderItem{
+  text-align: center;
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 22px 0px;
+
+  background-color: white;
+  
+}
+.activetableHeaderItem{
+  color: white;
+  /* border-bottom: 1px solid white; */
+  background-color: #353535;
+  border-radius: 16px 16px 0px 0px;
+}
+.bookingTableBody{
+  background-color: #353535;
+  border-radius: 0px 24px 24px 24px;
+}
+.bgDark{
+  background-color:#353535 ;
+}
+.bgGreen{
+  background-color: #139F01;
+}
+.borderBottomWhite{
+  border-bottom: 2px solid white;
+}
+.tableHeader{
+  border-radius: 20px;
+  padding: 10px 0px;
+  background-color: #139F01;
+}
+.roleMain{
+  border-radius: 16px;
+}
+
+
+
+/* range input */
+
+.customInputOuter{
+  
+  height: 20px;
+  width: 40px;
+  border-radius: 10px;
+}
+.rangeBox{
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  
+  margin: 0px 3px;
+}
+.bgSuccess{
+  background-color:  #139F01;
+}
+.bgSecondary{
+  background-color:  #EDEDED;
+}
