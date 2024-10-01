@@ -1,18 +1,24 @@
 import React from "react";
-
+import { useNavigate, useLocation } from "react-router-dom";
 function Sidebar() {
+  const navigate = useNavigate();
+  const location = useLocation();
+  console.log(location.pathname)
   const navItems = [
     {
       title: "Dashboard",
       img: "/images/dashboard_1.png",
+      path:"/"
     },
     {
       title: "Command Center",
       img: "/images/exam_copy.png",
+      path:"/command-center"
     },
     {
       title: "Booking Dashboard",
       img: "/images/dashboard_1.png",
+      path:"/booking-dashboard"
     },
     {
       title: "Chat Support",
@@ -68,7 +74,7 @@ function Sidebar() {
         <div className="pe-2">
           {navItems?.map((v, i) => {
             return (
-              <div className={"d-flex  sideBarOption align-items-center mb-3 " + (i == 1 && "selectedBtn")}>
+              <div onClick={()=>navigate(v?.path)} className={"d-flex  sideBarOption align-items-center mb-3 " + (location.pathname == v?.path && "selectedBtn")}>
                 <img className="img-fluid" src={v?.img} />
                 <p className="mb-0">{v?.title}</p>
               </div>
