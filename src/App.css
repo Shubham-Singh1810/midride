@@ -199,3 +199,37 @@ border-radius:0px 0px 12px 12px;
 .bgSecondary{
   background-color:  #EDEDED;
 }
+.assignRoleMain{
+  border-radius: 30px;
+  
+}
+.sendInviteBtn{
+  padding:9px;
+  width: 300px;
+  background-color: #139F01;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+.assignRoleMain input{
+  border: none;
+  border-radius: 12px;
+}
+.cameraInput{
+  background: #353535;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.cameraInput img{
+  height: 100px;
+  width: 100px;
+}
+.addBtn{
+  background-color: #353535;
+  width: 85px;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 8px;
+}
